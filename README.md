@@ -1,4 +1,4 @@
-# Image Sudoku Game for Kids
+# Sudoku Game for Kids
 
 This game is a kid-friendly version of Sudoku, where images replace the traditional numbers. Instead of filling in numbers, children will solve Sudoku puzzles by selecting and arranging images in a 4x4 grid. The game aims to engage children in a fun and visually stimulating way while improving their problem-solving skills.
 #  Demo
