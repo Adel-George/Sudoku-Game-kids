@@ -1,0 +1,161 @@
+<html>
+  <head>
+    <title>Game 1</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      .main {
+        height: 100vh;
+        position: relative;
+      }
+      .imgSize {
+        width: 100%;
+        height: 100%;
+      }
+      .imgSize img {
+        width: 100%;
+        height: 100%;
+      }
+      table{
+        position: absolute;
+        top: 22%;
+        left: 30%;
+        border-collapse: collapse;
+      }
+      td{
+        border: 3px solid black;
+        width: 120px;
+        height:100px;
+        text-align: center;
+      }
+      td img{
+        width: 65%;
+      }
+      .sizeImg{
+        width: 100px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .sizeImg img{
+        width: 100%;
+      }
+      .position{
+        position: absolute;
+        top: 20%;
+        left: 80%;
+      }
+      .mt-2{
+        margin-top: 20px;
+      }
+      p{
+        font-size: 25px;
+        font-weight: bolder;
+        background-color: rgb(243, 191, 23);
+        padding: 25px;
+        border-radius: 50%;
+        margin-left: 5px;
+      }
+      .start{
+        position: absolute;
+        top: 30%;
+        left: 7%;
+      }
+      button{
+        padding: 15px 50px;
+        border: none;
+        background-color: rgb(243, 191, 23);
+        border-radius: 20px;
+        margin-top: 20%;
+        cursor: pointer;
+        color: white;
+        font-size: 20px;
+      }
+      .move{
+        background-color: rgba(255, 255, 255, 0.598) !important;
+      }
+      .key{
+        background-color: rgb(243, 191, 23);
+      }
+      h6{
+        position:absolute;
+        top: 110px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 20px;
+        color: rgb(170, 25, 25);
+      }
+      .hide{
+        display: none;
+      }
+      h1{
+        padding-bottom: 60px;
+        color: rgb(170, 25, 25);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="imgSize">
+        <img src="img/bg1/bg1.jpg" alt="" />
+      </div>
+      <table>
+        <tr>
+          <td>
+          </td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+    <div class="position">
+        <div class="sizeImg">
+            <img src="img/bg1/1.png" alt="1">
+            <p>1</p>
+        </div>
+        <div class="sizeImg">
+            <img src="img/bg1/2.png" alt="2">
+            <p>2</p>
+        </div>
+        <div class="sizeImg">
+            <img src="img/bg1/3.png" alt="3">
+            <p>3</p>
+        </div>
+        <div class="sizeImg mt-2">
+            <img src="img/bg1/4.png" alt="4">
+            <p>4</p>
+        </div>
+    </div>
+
+    <div class="start">
+        <h1>Welcome <span></span></h1>
+        <h2>Time: <span>01:00</span></h2>
+        <button>Start</button>
+    </div>
+      <h6 class="hide">Please Try Again</h6>
+
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
